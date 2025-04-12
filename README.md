@@ -81,11 +81,17 @@ Neste exemplo, o tamanho da mensagem a ser recuperada é `16` caracteres.
 
 ### Exemplo de Visualização de Bits LSB
 
+#### Visualização LSB **sem** modificação
+
+| Canal vermelho não modificado       | Canal verde não modificado              | Canal azul não modificado             |
+|-------------------------------------|-----------------------------------------|---------------------------------------|
+| ![lessRED](images/cleanLessRED.png) | ![lessGreen](images/cleanLessGREEN.png) | ![lessBLUE](images/cleanLessBLUE.png) |           
+
+#### Visualização LSB **com** modificação
+
 | Canal vermelho                 | Canal verde                        | Canal azul                       |
 |--------------------------------|------------------------------------|----------------------------------|
-| ![lessRED](images/lessRED.png) | ![lessGreen](images/lessGreen.png) | ![lessBLUE](images/lessBLUE.png) |
-|                                |                                    |                                  |
-
+| ![lessRED](images/lessRED.png) | ![lessGreen](images/lessGREEN.png) | ![lessBLUE](images/lessBLUE.png) |
 
 
 ## Estrutura do Projeto
