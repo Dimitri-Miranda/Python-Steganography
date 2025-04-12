@@ -101,9 +101,12 @@ Neste exemplo, o tamanho da mensagem a ser recuperada é `16` caracteres.
 ├── images/                         # Pasta contendo as imagens utilizadas e geradas
 │   ├── purpleMonkey.png            # Imagem de exemplo para esconder a mensagem
 │   ├── steg_1744445849519.9663.png # Imagem com a mensagem oculta
-│   ├── lessRED.png                 # Visualização do bit menos significativo (LSB) no canal vermelho
-│   ├── lessGreen.png               # Visualização do bit menos significativo (LSB) no canal verde
-│   ├── lessBLUE.png                # Visualização do bit menos significativo (LSB) no canal azul
+│   ├── cleanLessRED.png            # Visualização do bit menos significativo (LSB) no canal vermelho sem modificação
+│   ├── cleanLessGreen.png          # Visualização do bit menos significativo (LSB) no canal verde sem modificação
+│   ├── cleanLessBLUE.png           # Visualização do bit menos significativo (LSB) no canal azul sem modificação
+│   ├── lessRED.png                 # Visualização do bit menos significativo (LSB) no canal vermelho com modificação
+│   ├── lessGreen.png               # Visualização do bit menos significativo (LSB) no canal verde com modificação
+│   ├── lessBLUE.png                # Visualização do bit menos significativo (LSB) no canal azul com modificação
 ├── LICENSE                         # Arquivo de licença
 ├── README.md                       # Este arquivo
 ├── requirements.txt                # Arquivo de dependências
