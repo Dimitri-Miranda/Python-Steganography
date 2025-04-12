@@ -92,15 +92,16 @@ Neste exemplo, o tamanho da mensagem a ser recuperada é `16` caracteres.
 
 ```
 .
-├── steganoPy.py                    # Código principal de esteganografia com argparse
 ├── images/                         # Pasta contendo as imagens utilizadas e geradas
 │   ├── purpleMonkey.png            # Imagem de exemplo para esconder a mensagem
 │   ├── steg_1744445849519.9663.png # Imagem com a mensagem oculta
 │   ├── lessRED.png                 # Visualização do bit menos significativo (LSB) no canal vermelho
 │   ├── lessGreen.png               # Visualização do bit menos significativo (LSB) no canal verde
 │   ├── lessBLUE.png                # Visualização do bit menos significativo (LSB) no canal azul
+├── LICENSE                         # Arquivo de licença
 ├── README.md                       # Este arquivo
-└── requirements.txt                # Arquivo de dependências
+├── requirements.txt                # Arquivo de dependências
+└── steganoPy.py                    # Código principal de esteganografia com argparse
 ```
 
 
