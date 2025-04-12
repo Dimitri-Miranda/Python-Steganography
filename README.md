@@ -2,15 +2,18 @@
 
 Este projeto implementa um algoritmo simples de esteganografia em Python utilizando a técnica de LSB (Least Significant Bit) para ocultar mensagens em imagens. A esteganografia é uma técnica de segurança de dados que envolve ocultar informações dentro de outras, tornando as mensagens ocultas praticamente imperceptíveis a olho nu.
 
+
 ## Como Funciona
 
 A técnica LSB (Least Significant Bit) consiste em modificar os bits menos significativos de cada pixel de uma imagem para armazenar informações sem alterar de forma perceptível a imagem. Essa técnica pode ser usada para esconder mensagens de texto, que são codificadas diretamente nos pixels da imagem.
+
 
 ## Funcionalidades
 
 - **Codificar Mensagem:** Permite esconder uma mensagem de texto dentro de uma imagem.
 - **Decodificar Mensagem:** Permite extrair a mensagem oculta da imagem.
 - **Suporte a Formatos Comuns de Imagens:** O algoritmo pode ser usado com imagens em formato PNG, GIF, JPEG.
+
 
 ## Requisitos
 
@@ -21,6 +24,7 @@ pip install pillow
 ```
 
 A biblioteca `Pillow` é usada para manipulação de imagens.
+
 
 ## Como Usar
 
@@ -77,33 +81,31 @@ Neste exemplo, o tamanho da mensagem a ser recuperada é `16` caracteres.
 
 ### Exemplo de Visualização de Bits LSB
 
-Canal vermelho:  
-![lessRED](images/lessRED.png)
+| Canal vermelho                 | Canal verde                        | Canal azul                       |
+|--------------------------------|------------------------------------|----------------------------------|
+| ![lessRED](images/lessRED.png) | ![lessGreen](images/lessGreen.png) | ![lessBLUE](images/lessBLUE.png) |
+|                                |                                    |                                  |
 
-Canal verde:  
-![lessGreen](images/lessGreen.png)
-
-Canal azul:  
-![lessBLUE](images/lessBLUE.png)
 
 
 ## Estrutura do Projeto
 
 ```
 .
-├── steganoPy.py                     # Código principal de esteganografia com argparse
-├── images/                          # Pasta contendo as imagens utilizadas e geradas
-│   ├── purpleMonkey.png             # Imagem de exemplo para esconder a mensagem
-│   ├── steg_1744445849519.9663.png  # Imagem com a mensagem oculta
-│   ├── lessRED.png                  # Visualização do bit menos significativo (LSB) no canal vermelho
-│   ├── lessGreen.png                # Visualização do bit menos significativo (LSB) no canal verde
-│   ├── lessBLUE.png                 # Visualização do bit menos significativo (LSB) no canal azul
-├── README.md                        # Este arquivo
-└── requirements.txt                 # Arquivo de dependências
+├── steganoPy.py                    # Código principal de esteganografia com argparse
+├── images/                         # Pasta contendo as imagens utilizadas e geradas
+│   ├── purpleMonkey.png            # Imagem de exemplo para esconder a mensagem
+│   ├── steg_1744445849519.9663.png # Imagem com a mensagem oculta
+│   ├── lessRED.png                 # Visualização do bit menos significativo (LSB) no canal vermelho
+│   ├── lessGreen.png               # Visualização do bit menos significativo (LSB) no canal verde
+│   ├── lessBLUE.png                # Visualização do bit menos significativo (LSB) no canal azul
+├── README.md                       # Este arquivo
+└── requirements.txt                # Arquivo de dependências
 ```
 
 
-## Credits:
+## Créditos:
+
 - **Imagens do BonziBuddy**: Personagem criado por **Bonzi Software, Inc.** — usado aqui de forma paródica/meme com fins educacionais e sem fins lucrativos
 - **Letra da musica usada no exemplo**: "Bad Apple" by **Alstroemeria Records** featuring **Nomico**
 - **Tradução em inglês**: [LyricsTranslate](https://lyricstranslate.com/en/bad-apple-english-version-腐った林檎.html)
