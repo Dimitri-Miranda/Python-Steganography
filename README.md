@@ -106,7 +106,7 @@ Neste exemplo, o tamanho da mensagem a ser recuperada é `16` caracteres.
 │   ├── cleanLessBLUE.png           # Visualização do bit menos significativo (LSB) no canal azul sem modificação
 │   ├── lessRED.png                 # Visualização do bit menos significativo (LSB) no canal vermelho com modificação
 │   ├── lessGreen.png               # Visualização do bit menos significativo (LSB) no canal verde com modificação
-│   ├── lessBLUE.png                # Visualização do bit menos significativo (LSB) no canal azul com modificação
+│   └── lessBLUE.png                # Visualização do bit menos significativo (LSB) no canal azul com modificação
 ├── LICENSE                         # Arquivo de licença
 ├── README.md                       # Este arquivo
 ├── requirements.txt                # Arquivo de dependências
