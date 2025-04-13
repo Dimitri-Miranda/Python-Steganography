@@ -116,7 +116,7 @@ Neste exemplo, o tamanho da mensagem a ser recuperada é `16` caracteres.
 
 ## Créditos:
 
-- **Imagens do BonziBuddy**: Personagem criado por **Bonzi Software, Inc.**Usado aqui de forma paródica/meme com fins educacionais e sem fins lucrativos
+- **Imagens do BonziBuddy**: Personagem criado por **Bonzi Software, Inc.** Usado aqui de forma paródica/meme com fins educacionais e sem fins lucrativos
 - **Letra da musica usada no exemplo**: "Bad Apple" by **Alstroemeria Records** featuring **Nomico**
 - **Tradução em inglês**: [LyricsTranslate](https://lyricstranslate.com/en/bad-apple-english-version-腐った林檎.html)
 - **Ferramenta para visualizar bits na imagem**: [StegOnline](https://www.georgeom.net/StegOnline/upload)
